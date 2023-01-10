@@ -1,6 +1,11 @@
+<p align="center">
+    <img alt="Por" src="https://img.shields.io/badge/Por-Emily%20Matias-purple?style=for-the-badge">
+    <img alt="Foco" src="https://img.shields.io/badge/Foco-HTML,_CSS,_JS-blue?style=for-the-badge">
+</p>
+
 ## Introdução
 
-Olá! Aqui é o meu cantinho de prática de estudos com algumas aplicações de teste. Meu foco é treinar principalmente:
+Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios. Meu foco é treinar principalmente:
 
 1. **HTML**: estruturação de objetos e elementos DOM.
 2. **CSS**: estilização de projetos.
