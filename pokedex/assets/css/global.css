@@ -1,0 +1,24 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9a89b6;  
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-color: #e7e7e7;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+}
