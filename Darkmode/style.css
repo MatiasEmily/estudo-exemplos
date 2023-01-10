@@ -38,13 +38,13 @@ footer.dark-mode {
 }
 
 button {
-	border-radius: 40px;
-	font-size: 1.5rem;
 	height: 60px;
 	width: 200px;
-	border: none;
 	background-color: #4e545c;
 	color: #e5e8e8;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 40px;
 	transition: all 0.5s linear;
 }
 
