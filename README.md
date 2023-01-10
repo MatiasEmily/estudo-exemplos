@@ -5,7 +5,7 @@
 
 ## Introdução
 
-Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios. Meu foco é treinar principalmente:
+Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios, listados cronologicamente. Meu foco atual é treinar principalmente:
 
 1. **HTML**: estruturação de objetos e elementos DOM.
 2. **CSS**: estilização de projetos.
