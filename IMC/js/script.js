@@ -33,7 +33,7 @@ function handleButtonClick() {
 }
 
 function verificaImc(imcVerificado) {
-  if (imcVerificado >= 16 && imcVerificado <= 16.9) {
+  if (imcVerificado >= 16 && imcVerificado < 17) {
     imcVerificado = 'Muito abaixo do peso';
   } else if (imcVerificado >= 17 && imcVerificado < 18.5) {
     imcVerificado = 'Abaixo do peso';
