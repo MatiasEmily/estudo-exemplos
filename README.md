@@ -11,7 +11,7 @@ Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios. Meu 
 2. **CSS**: estilização de projetos.
 3. **JavaScript**: algoritmos e interação de páginas web.
 
-### Projetos
+## Projetos
 
 - _GeassFlix_: Página simulando uma interface simplificada da Netflix, com uma versão temática do anime Code Geass.
 - _DarkMode_: Página com botão que alterna estilização entre tema noturno/diurno.
