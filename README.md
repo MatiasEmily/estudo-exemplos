@@ -9,7 +9,7 @@ Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios, list
 
 1. **HTML**: estruturação de objetos e elementos DOM.
 2. **CSS**: estilização de projetos.
-3. **JavaScript**: algoritmos e interação de páginas web.
+3. **JavaScript**: algoritmos e interação de páginas web baseado em EcmaScript5+ puro.
 
 ## Projetos
 
