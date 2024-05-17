@@ -8,8 +8,9 @@
 Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios, listados cronologicamente. Meu foco atual é treinar principalmente:
 
 1. **JavaScript**: algoritmos e interação de páginas web baseado em EcmaScript5+ vanilla.
-3. **HTML**: estruturação de objetos e elementos DOM.
-2. **CSS**: estilização de projetos.
+2. **HTML**: estruturação de objetos e elementos DOM.
+3. **CSS**: estilização de projetos.
+4. **Python**: algoritmos de prática de lógica de programação.
 
 ## Projetos de Estudo
 ### 2022
