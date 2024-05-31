@@ -19,12 +19,10 @@ Como desafio, adicione dois novos produtos da sua escolha à lista.
 lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loções', 'xampus', 'sabonetes', 'delineadores']
 
 # Atualização de produtos
-lista_produtos[1] = 'rímel' # substitui batons
-lista_produtos[4] = 'cremes hidratantes' # substitui loções
+lista_produtos[1], lista_produtos[4] = 'rímel', 'cremes hidratantes' # substitui batons e loções
 lista_produtos.pop() # remove último item da lista, delineadores
 lista_produtos.append('condicionadores') # adiciona condicionadores ao fim da lista
 lista_produtos.append('esfoliantes') # adiciona esfoliantes ao fim da lista
 
-# Laço para imprimir o array
-for produto in lista_produtos:
-  print(f"Temos {produto} à venda!")
+# Imprimir o array
+print(f"Temos {lista_produtos} à venda!")
