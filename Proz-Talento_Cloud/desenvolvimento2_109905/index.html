@@ -1,0 +1,95 @@
+<!--
+Crie o corpo de uma página sobre lugares turísticos na Europa.
+Nela, você deve focar apenas no conteúdo da página, adicionando textos, cards, imagens, entre outros. 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EuroTour - Turismo na Europa</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+
+    <span class="inline-flex">
+      <svg height="30px" width="30px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+        <path class="st0" d="M286.105,88.898c-100.217,0.008-181.43,81.222-181.438,181.438c0.008,100.225,81.222,181.438,181.438,181.446 c100.225-0.008,181.439-81.222,181.446-181.446C467.544,170.119,386.33,88.906,286.105,88.898z M179.43,163.661 c10.19-10.181,21.832-18.91,34.562-25.85c-6.736,10.316-12.612,21.932-17.518,34.646h-25.04 C174.01,169.444,176.627,166.463,179.43,163.661z M153.741,197.944h34.714c-4.795,18.48-7.623,38.589-8.501,59.644h-44.06 C137.7,236.103,143.897,215.901,153.741,197.944z M153.757,342.736c-9.86-17.966-16.057-38.168-17.864-59.661h43.883 c0.877,21.106,3.849,41.164,8.661,59.661H153.757z M179.43,377.01c-2.802-2.802-5.419-5.774-7.986-8.788h25.04 c3.554,9.219,7.581,17.888,12.089,25.875c1.748,3.072,3.614,5.951,5.496,8.814C201.295,395.963,189.645,387.225,179.43,377.01z M273.366,420.555c-1.266-0.101-2.542-0.16-3.808-0.304c-4.153-1.706-8.282-3.96-12.393-7.024 c-12.333-9.16-24.043-24.752-33.109-45.005h49.31V420.555z M273.366,342.736h-58.445c-5.26-18-8.518-38.184-9.481-59.661h67.926 V342.736z M273.366,257.588h-68.112c0.963-21.468,4.34-41.644,9.582-59.644h58.53V257.588z M273.366,172.458h-49.243 c2.094-4.677,4.28-9.176,6.644-13.339c7.801-13.837,16.944-24.617,26.398-31.674c4.112-3.057,8.24-5.302,12.385-7.008 c1.266-0.143,2.55-0.202,3.816-0.312V172.458z M418.478,197.944c9.844,17.957,16.04,38.159,17.846,59.644h-43.89 c-0.878-21.097-3.85-41.146-8.662-59.644H418.478z M392.788,163.661c2.803,2.802,5.42,5.783,7.995,8.797h-25.056 c-3.546-9.219-7.582-17.889-12.098-25.884c-1.739-3.064-3.613-5.943-5.479-8.814C370.906,144.716,382.565,153.454,392.788,163.661z M298.844,120.125c1.266,0.11,2.549,0.169,3.816,0.312c4.136,1.706,8.274,3.951,12.384,7.008 c12.343,9.159,24.044,24.769,33.119,45.013h-49.319V120.125z M298.844,197.944h58.453c5.252,17.999,8.51,38.184,9.472,59.644 h-67.925V197.944z M341.451,381.552c-7.809,13.837-16.952,24.626-26.407,31.675c-4.11,3.064-8.248,5.318-12.393,7.024 c-1.266,0.144-2.541,0.202-3.807,0.304v-52.333h49.252C345.993,372.89,343.816,377.399,341.451,381.552z M298.844,342.736v-59.661 h68.111c-0.962,21.477-4.339,41.662-9.582,59.661H298.844z M392.788,377.01c-10.19,10.198-21.831,18.919-34.562,25.85 c6.728-10.307,12.604-21.924,17.509-34.638h25.038C398.208,371.236,395.591,374.208,392.788,377.01z M418.46,342.736h-34.705 c4.803-18.472,7.623-38.581,8.501-59.661h44.068C434.518,304.568,428.322,324.77,418.46,342.736z"></path> <path class="st0" d="M401.652,459.001c-36.09,22.101-75.928,32.604-115.328,32.604c-74.477-0.008-147.146-37.567-188.884-105.721 c-22.102-36.09-32.604-75.929-32.604-115.329c0.009-74.485,37.568-147.129,105.73-188.884L159.92,64.288 C85.503,109.868,44.432,189.274,44.449,270.555c-0.009,43.022,11.506,86.626,35.608,125.974 C125.628,470.93,205.043,512.009,286.324,512c43.021,0,86.625-11.506,125.982-35.608l-10.654-17.382V459.001z"></path> <path class="st0" d="M244.587,69.818h95.387c9.818,0,17.787-3.317,17.787-13.152c0-9.819-18.8-19.333-28.618-19.333h-19.704 l-40.1-36.099c-2.009-2.22-9.97-0.768-12.384-0.759c-2.98,0.017-2.33,4.778-1.182,7.547l11.718,29.311h-28.062l-15.39-24.448 c-2.702-2.946-6.932-3.942-10.654-2.499c-3.732,1.444-6.188,5.032-6.188,9.025l-0.253,17.922v5.293 C206.943,57.644,224.993,69.818,244.587,69.818z"></path>
+      </svg>
+  
+      <h1>EuroTour</h1>
+    </span>
+
+    <nav>
+      <ul>
+        <li><a href="#berlim">Berlim</a></li>
+        <li><a href="#paris">Paris</a></li>
+        <li><a href="#londres">Londres</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+      <h2>Principais Capitais</h2>
+
+      <article id="berlim">
+        <h3>Berlim, Alemanha</h3>
+
+        <img src="https://imgmd.net/images/v1/guia/1684203/berlim-111-c.jpg" alt="Berlim, Alemanha">
+        <p>
+          Berlim, a capital da Alemanha, é uma cidade rica em história, cultura e existe desde o século XIII.
+          Algumas recordações da história turbulenta da cidade no século XX são o Memorial do Holocausto e as ruínas do Muro de Berlim, repletas de grafites.
+          Usado como divisão de fronteiras durante a Guerra Fria, o Portão de Brandemburgo, construído no século XVIII, tornou-se um símbolo da reunificação.
+          A cidade também é conhecida por seu cenário artístico e seus monumentos modernos, como a Filarmônica de Berlim, dourada e de telhado triangular, construída em 1963.
+        </p>
+      </article>
+
+      <article id="paris">
+        <h3>Paris, França</h3>
+        <img src="https://www.viajaquepassa.com.br/wp-content/uploads/2021/02/torre-eiffel-paris.png" alt="Paris, França">
+        <p>
+          Uma das capitais mais conhecidas pela sua arquitetura icônica, arte renomada e cultura vibrante.
+          Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena.
+          A cidade é conhecida por monumentos como a Torre Eiffel e a Catedral de Notre-Dame, uma construção gótica do século XII, sendo famosa também pela cultura dos cafés e por lojas de estilistas famosos na Rue du Faubourg Saint-Honoré.
+        </p>
+      </article>
+
+      <article id="londres">
+        <h3>Londres, Reino Unido</h3>
+        <img src="https://www.tudosobrelondres.com/f/reino-unido/londres/guia/distritos.jpg" alt="Londres, Reino Unido">
+        <p>
+          Capital cosmopolita que mistura, ao mesmo tempo, história e modernidade.
+          É uma cidade do século 21 com uma história que remonta à era romana.
+          Seu centro abriga as sedes imponentes do Parlamento, a famosa torre do relógio do Big Ben e a Abadia de Westminster, local de coroação dos monarcas britânicos.
+          Do outro lado do rio Tâmisa, a roda gigante London Eye tem vista panorâmica do complexo cultural da margem sul e de toda a cidade.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p><b>&copy; 2024 EuroTour.</b><br> Todos os direitos reservados.</p>
+
+    <span class="inline-flex">
+      <a href="http://github.com/matiasemily" alt="GitHub" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="25" height="25" class="redes">
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+        </svg></a>
+
+      <a href="http://linkedin.com/in/matiasemily" alt="LinkedIn" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="27" height="27" class="redes">
+          <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+        </svg></a>
+    </span>
+  </footer>
+
+</body>
+</html>
