@@ -24,3 +24,4 @@ Olá! Aqui é o meu cantinho de prática de estudos com alguns exercícios, list
 ### 2024
 
 - _Python_: Diretório com exercícios de lógica de programação em Python, feitos durante o programa Talento Cloud Pro, da Proz.
+- _Proz - Talento Cloud_: Diretório com exercícios de front-end (HTMl/CSS/JS), feitos durante o programa Talento Cloud Pro, da Proz.
