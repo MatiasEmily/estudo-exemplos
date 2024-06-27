@@ -1,0 +1,116 @@
+<!-- 
+Proz - Talento Cloud
+Introdução à Programação com foco em Front-End - Turma 28
+HTML/CSS
+Desenvolvimento 3 - 109915
+Emily Matias
+
+Enunciado:
+A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pontos turísticos e um deles é o Marco Zero. Sabendo disso, crie uma página HTML, falando sobre esse ponto turístico de acordo com os seguintes pré-requisitos: 
+
+ 1. A página precisa ter cabeçalho, conteúdo e rodapé;
+ 2. A página precisa ter imagens; 
+ 3. Use a tag de semântica textual inline. 
+
+ Abuse de sua criatividade para a criação da página!  
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marco Zero</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+
+    <span class="inline-flex">
+      <svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455 455" xml:space="preserve">
+        <path d="M401.85,212.5c-3.156-37.002-17.873-70.752-40.518-97.619l37.641-37.641l-21.213-21.213l-37.642,37.641 C313.252,71.023,279.502,56.306,242.5,53.15V0h-30v53.15c-37.002,3.156-70.752,17.873-97.619,40.518L77.239,56.027L56.026,77.24 l37.641,37.641C71.023,141.748,56.306,175.498,53.15,212.5H0v30h53.15c3.156,37.002,17.873,70.752,40.518,97.619L56.026,377.76 l21.213,21.213l37.642-37.641c26.867,22.645,60.617,37.362,97.619,40.518V455h30v-53.15c37.002-3.156,70.752-17.873,97.619-40.518 l37.642,37.641l21.213-21.213l-37.641-37.641c22.645-26.867,37.362-60.617,40.518-97.619H455v-30H401.85z M242.5,83.272 c28.75,2.968,55.029,14.376,76.324,31.69l-59.041,59.041c-5.299-3.21-11.113-5.645-17.283-7.171V83.272z M212.5,83.272v83.559 c-6.17,1.526-11.984,3.962-17.283,7.171l-59.041-59.041C157.471,97.648,183.75,86.241,212.5,83.272z M114.963,136.176l59.041,59.04 c-3.21,5.299-5.646,11.114-7.171,17.284h-83.56C86.241,183.75,97.648,157.471,114.963,136.176z M83.272,242.5h83.56 c1.526,6.17,3.961,11.985,7.171,17.284l-59.041,59.04C97.648,297.529,86.241,271.25,83.272,242.5z M212.5,371.728 c-28.75-2.968-55.029-14.376-76.324-31.69l59.041-59.041c5.299,3.21,11.113,5.645,17.283,7.171V371.728z M227.5,260 c-17.921,0-32.5-14.579-32.5-32.5s14.579-32.5,32.5-32.5s32.5,14.579,32.5,32.5S245.421,260,227.5,260z M242.5,371.728v-83.559 c6.17-1.526,11.984-3.962,17.283-7.171l59.041,59.041C297.529,357.352,271.25,368.759,242.5,371.728z M340.037,318.824 l-59.041-59.04c3.21-5.299,5.646-11.114,7.171-17.284h83.56C368.759,271.25,357.352,297.529,340.037,318.824z M288.168,212.5 c-1.526-6.17-3.961-11.985-7.171-17.284l59.041-59.04c17.314,21.295,28.722,47.575,31.69,76.324H288.168z"></path>
+      </svg>
+
+      <h1>Marco Zero</h1>
+    </span>
+
+    <nav>
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#importancia-cultural">Contato</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+      <h2>Conheça o Marco Zero</h2>
+
+      <article id="historia">
+        <h3>História</h3>
+        <p>
+          O Marco Zero de Recife é um ponto histórico e cultural significativo localizado no bairro do Recife, na capital do estado de Pernambuco, Brasil. Esse local é considerado o ponto de referência a partir do qual se mede as distâncias das rodovias que partem da cidade, funcionando como o "coração" geográfico do Recife.
+          <img src="https://www.joaoalberto.com/wp-content/uploads/2018/09/30/refeno5.jpeg" alt="Marco Zero, Recife, Pernambuco">
+          O Marco Zero foi criado em 1938 pelo prefeito Novaes Filho. Em 1999, o espaço foi revitalizado e reinaugurado, recebendo um novo pavimento, iluminação moderna e um projeto paisagístico que o transformou em um importante ponto turístico e de lazer para moradores e visitantes.
+        </p>
+      </article>
+
+      <article id="localizacao">
+        <h3>Localização e Atrações</h3>
+        <img src="https://www.astrope.com.br/wp-content/uploads/2016/02/DSC_1035.jpg" alt="Localização e Atrações">
+        <p>
+          Localizado na Praça Rio Branco, em Recife, Pernambuco, o Marco Zero está cercado por diversos pontos de interesse:
+          <ul>
+            <li><strong>Cais do Sertão:</strong> Um museu interativo dedicado à cultura sertaneja e à vida do cantor Luiz Gonzaga.</li>
+            <li><strong>Centro Cultural dos Correios:</strong> Um espaço cultural com exposições de arte e eventos.</li>
+            <li><strong>Paço do Frevo:</strong> Um museu dedicado ao frevo, um dos ritmos musicais mais emblemáticos de Pernambuco.</li>
+            <li><strong>Armazéns do Porto:</strong> Um complexo de bares e restaurantes que oferecem diversas opções gastronômicas com vista para o mar.</li>
+            <li><strong>Parque das Esculturas:</strong> Localizado no mar, em frente ao Marco Zero, esse parque abriga obras do famoso artista pernambucano Francisco Brennand.</li>
+          </ul>
+        </p>
+      </article>
+
+      <article id="eventos">
+        <h3>Eventos e Atividades</h3>
+        <img src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2023/02/image-2023-02-17t185946468.jpg" alt="Eventos e Atividades">
+        <p>
+          O Marco Zero é um ponto de encontro popular e frequentemente sedia eventos culturais, shows, feiras de artesanato e festivais, incluindo o famoso Carnaval de Recife, onde desfiles de blocos e apresentações de maracatu, frevo e outras manifestações culturais acontecem.
+        </p>
+      </article>
+      
+      <article id="importancia-cultural">
+        <h3>Importância Cultural</h3>
+        <img src="https://images03.brasildefato.com.br/caef9b7aae8fc4e4d6fa235566b384d2.jpeg" alt="Importância Cultural">
+        <p>
+          Além de ser um ponto turístico, o Marco Zero é um espaço simbólico que representa a conexão entre o passado e o presente do Recife.
+          É um lugar onde história, cultura e modernidade se encontram, oferecendo uma visão rica e diversa da identidade pernambucana.
+          O Marco Zero é, portanto, um local essencial para quem deseja compreender e vivenciar a cultura e a história de Recife.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p><strong>&copy; 2024 Marco Zero.</strong><br> Todos os direitos reservados.</p>
+
+    <span class="inline-flex">
+      <a href="http://github.com/matiasemily" alt="GitHub" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="25" height="25" class="redes">
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+        </svg></a>
+
+      <a href="http://linkedin.com/in/matiasemily" alt="LinkedIn" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="27" height="27" class="redes">
+          <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+        </svg></a>
+    </span>
+  </footer>
+
+</body>
+</html>
